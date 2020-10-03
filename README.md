@@ -1,5 +1,5 @@
-# MyHomeHub-Dashboard
-MyHomeHub Dashboard UI
+# Metisium-Dashboard
+Metisium Dashboard Add-On
 
 
 # Thanks to
