@@ -130,4 +130,9 @@ main {
   border-bottom: 4px solid var(--blue);
 }
 
+.logout {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
 

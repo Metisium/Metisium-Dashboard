@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="../css/login.css">
-  <link rel="stylesheet" type="text/css" href="../css/theme.css">
-  <link rel="icon" type="image/svg+xml" href="../img/Wappen.svg">
-  <link rel="alternate icon" href="../img/Wappen.ico">
-  <link rel="mask-icon" href="../img/Wappen.svg" color="#CBD3D5">
+  <link rel="stylesheet" type="text/css" href="../pubdashboard/css/login.css">
+  <link rel="stylesheet" type="text/css" href="../pubdashboard/css/theme.css">
+  <link rel="icon" type="image/svg+xml" href="../pubdashboard/img/Wappen.svg">
+  <link rel="alternate icon" href="../pubdashboard/img/Wappen.ico">
+  <link rel="mask-icon" href="../pubdashboard/img/Wappen.svg" color="#CBD3D5">
   <title>Login || Metisium</title>
 </head>
 <body>
   <section id="image" style="position: relative;">
-    <img src="../img/Wappen.svg" height="80px" width="auto" style="position: absolute; bottom: 20px; right: 30px;" alt="Familienwappen"/>
+    <img src="../pubdashboard/img/Wappen.png" height="80px" width="auto" style="position: absolute; bottom: 20px; right: 30px;"/>
   </section>
   <section id="login">
       
-      <form action="/api/auth/login" method="POST">
+      <form action="../api/auth/login" method="POST">
         <h1>Sign In</h1>
         <div class="form">
           <div style="position: absolute; top: 1vh;">
@@ -26,8 +26,8 @@
             </label>
           </div>
           <div style="position: absolute; top: 10vh;">
-            <input type="text" name="username" autocomplete="off" required/>
-            <label for="username" class="label-name">
+            <input type="password" name="password" autocomplete="off" required/>
+            <label for="password" class="label-name">
               <span class="content-name">Password</span>
             </label>
           </div>
